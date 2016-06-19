@@ -1,0 +1,8 @@
+name: SupplyCrates
+version: 0.5-STABLE
+main: me.icodetits.supplyCrates.Main
+author: iCodeTits
+depend: [Essentials]
+softdepend: [Multiverse-Core]
+commands:
+  supplycrates:

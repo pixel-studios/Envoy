@@ -1,0 +1,38 @@
+#DO NOT EDIT MESSAGES-VERSION!
+
+PREFIX: '&e&lSC&f:&7'
+INVALID-CMD: Command not found.
+NO-PERMISSION: You don't have permission to use this command.
+EDIT-MODE-ON: '&dEdit mode enabled, Please place this block where you want Supply Crates to spawn.'
+EDIT-MODE-OFF: '&aEdit mode disabled.'
+MUST-END-CURRENT: Please stop the current Supply Crate Event first.
+SOMEONE-EDITING: Someone is currently in editor mode.
+EMPTY-CRATES: No crates setup.
+NO-EVENT-RUNNING: No event is current running.
+ADD-CRATE: This is now a Supply Crate.
+REMOVE-CRATE: This Supply Crate is now destroyed.
+REMOVE-FAILED: You must be in editor mode.
+BC-CLAIM-CRATE: '&e%player% &chas claimed a crate, there are &e%left% &ccrates left.'
+BC-STARTED: '&aA Supply Crate Event has started, there are &e%left% &atotal crates.'
+BC-STOPPED: '&cThe Supply Crate Event has ended.'
+TOO-EARLY-STOP: '&cPlease wait a few seconds before stopping an event.'
+RELOADING: Reloading Plugin...
+RELOAD-COMPLETE: Reload Complete. Took %ms%ms.
+AUTO-BC-ENABLED: true
+AUTO-BC: '&aA Supply Crate Event will start in %remaining%.'
+AUTO-BC-WARM-TIMES:
+  - 60
+  - 30
+  - 20
+  - 10
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1
+NO-ITEM-IN-HAND: '&bYou do not have an item in your hand.'
+SUCCESS-ADD-ITEM: '&aYou added &b%item%&a to the list of items.'
+TIME-LEFT: '&aNext Supply Crate Drop will be in &b%time%&a.'
+TIME-LEFT-ALREADY: '&aThere is &bcurrently &aa Supply Crate running.'
+
+MESSAGES-VERSION: 3
