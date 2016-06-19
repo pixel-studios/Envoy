@@ -1,7 +1,7 @@
 name: SupplyCrates
 version: 0.5-STABLE
-main: me.icodetits.supplyCrates.Main
-author: iCodeTits
+main: me.badinternet.envoy.Main
+author: badinternet
 depend: [Essentials]
 softdepend: [Multiverse-Core]
 commands:
