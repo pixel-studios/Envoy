@@ -8,15 +8,15 @@ SupplyCrates:
       - '&8&m===&c Supply Crate&8 &m==='
   particle:
     #Set to type: '' to disable!
-    type: SMOKE_NORMAL
+    type: ''
   crate:
-    amount_of_items: 10
+    amount_of_items: 2
     type: CHEST
-    falling_block: BEACON
+    falling_block: CHEST
     random_locations:
       #If enabled it will choose 10 random locations to spawn Supply Crates.
-      enabled: false
-      amount: 10
+      enabled: true
+      amount: 35
     locations: []
     items:
       '1':
@@ -25,7 +25,7 @@ SupplyCrates:
         name: '&fSupply Crate Gapple'
         lore:
           - '&dExclusive &e&nGapple&d from a Supply Crate'
-        chance: 75
+        chance: 2
       '2':
         material: DIAMOND_HELMET
         amount: 1
@@ -67,6 +67,26 @@ SupplyCrates:
           - unbreaking:3
         chance: 2
       '6':
+        material: DIAMOND_BOOTS
+        amount: 1
+        name: '&fSupply Crate Boots'
+        lore:
+          - '&dExclusive &e&nDiamond Boots&d from a Supply Crate'
+        enchants:
+          - protection:4
+          - unbreaking:3
+        chance: 2
+      '7':
+        material: DIAMOND_BOOTS
+        amount: 1
+        name: '&fSupply Crate Boots'
+        lore:
+          - '&dExclusive &e&nDiamond Boots&d from a Supply Crate'
+        enchants:
+          - protection:4
+          - unbreaking:3
+        chance: 2
+      '8':
         commands:
           - eco give {player} 2000
         chance: 2
